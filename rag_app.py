@@ -16,7 +16,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.documents import Document
 
-os.environ["OPENAI_API_KEY"] = "your-key-here"
+os.environ["OPENAI_API_KEY"] = ""
 
 Entrez.email = "your_email_here
 
