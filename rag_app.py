@@ -16,7 +16,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.documents import Document
 
-os.environ["OPENAI_API_KEY"] = "your_key_here"
+from dotenv import load_dotenv
+load_dotenv()
 
 Entrez.email = "your_email_here"
 
