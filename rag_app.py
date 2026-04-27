@@ -18,7 +18,7 @@ from langchain_core.documents import Document
 
 os.environ["OPENAI_API_KEY"] = ""
 
-Entrez.email = "your_email_here
+Entrez.email = "your_email_here"
 
 # ---- PAGE CONFIG ----
 st.set_page_config(page_title="PubMed Research Assistant", page_icon="🔬")
