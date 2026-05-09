@@ -3,7 +3,6 @@
 A conversational research assistant that answers scientific questions using real, published abstracts from PubMed — powered by Retrieval Augmented Generation (RAG).
  
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.56-red) ![LangChain](https://img.shields.io/badge/LangChain-latest-green) ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-orange) ![Docker](https://img.shields.io/badge/Docker-supported-blue)
- 
 ---
  
 ## What It Does
