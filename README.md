@@ -39,22 +39,6 @@ Search topic: `CRISPR Cas9 gene editing keratinocytes`
 - **[Biopython Entrez](https://biopython.org/)** — PubMed API access
 ---
 
-## Run with Docker
-
-No Python setup needed — just Docker!
-
-### 1. Build the image
-docker build -t rag-pubmed-app .
-
-### 2. Run the container
-docker run -p 8501:8501 --env-file .env rag-pubmed-app
-
-### 3. Open in browser
-http://localhost:8501
-
-Make sure your .env file contains your OpenAI API key:
-OPENAI_API_KEY=your-key-here
-
 ## How to Run
  
 ### 1. Clone the repo
@@ -86,6 +70,30 @@ streamlit run rag_app.py
 ```
  
 ---
+
+## Run with Docker
+
+No Python setup needed — just Docker!
+
+### 1. Build the image
+```bash
+docker build -t rag-pubmed-app .
+```
+
+### 2. Run the container
+```bash
+docker run -p 8501:8501 --env-file .env rag-pubmed-app
+```
+
+### 3. Open in browser
+```
+http://localhost:8501
+```
+
+Make sure your `.env` file contains your OpenAI API key:
+```
+OPENAI_API_KEY=your-key-here
+```
  
 ## How It Works
  
